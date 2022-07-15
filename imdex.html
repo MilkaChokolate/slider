@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>Актуальное</h1>
+        <div class="progress">
+            <div class="progress-blue"></div>
+        </div>
+        <div class="btns">
+            <div onclick="scrollToPrev()" class="btnPrev"><img ondblclick="return false" src="images/Vector%202.png" style="width:10px; height:20px;"></div>
+            <div onclick="scrollRight()" class="btnNext"><img ondblclick="return false" src="images/Vector%201.png" style="width:10px; height:20px;"></div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">10.11.2020 г.</p>
+                <p class="newsTitle">Ким и Валерия Брейтбурги написали книгу про искусство</p>
+                <p class="newsText">Работа над книгой велась более пяти лет, и действенные методики, описанные в ней, созданные в результате анализа и синтеза идей…</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">10.11.2020 г.</p>
+                <p class="newsTitle">Юрий Колокольников пытается спасти Землю в клипе «Космические силы»</p>
+                <p class="newsText">Премьера клипа «Космические силы» группы «Мумий Тролль» состоялась 6 ноября 2020 года.</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">10.11.2020 г.</p>
+                <p class="newsTitle">BTS получили четыре награды MTV EMA</p>
+                <p class="newsText">BTS получили четыре награды MTV EMA 27-я ежегодная церемония награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">10.11.2020 г.</p>
+                <p class="newsTitle">Открытие сезона «Ла Скала» отменено</p>
+                <p class="newsText">Миланский театр La Scala отменил открытие сезона. Первый спектакль был назначен на 7 декабря — «Лючия ди Ламмермур».</p>
+            </div>
+        </div>
+
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">09.11.2020 г.</p>
+                <p class="newsTitle">Переиздание книги "Властелин колец"</p>
+                <p class="newsText">Работа над книгой велась более пяти лет, исправлены ошибки перевода и добавлены иллюстрации от известных совреенных художников</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">09.11.2020 г.</p>
+                <p class="newsTitle">Юрий Колокольников пытается спасти Землю в клипе «Космические силы»</p>
+                <p class="newsText">Премьера клипа «Космические силы» группы «Мумий Тролль» состоялась 6 ноября 2020 года.</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">09.11.2020 г.</p>
+                <p class="newsTitle">Лана дель Рей получила четыре награды</p>
+                <p class="newsText">Певица четыре награды на MTV. EMA - 27-я ежегодная церемония награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">08.11.2020 г.</p>
+                <p class="newsTitle">Отмене показ фильма "Апокалипсис"</p>
+                <p class="newsText">Во избежание паники по поводу эпидемии короновируса было принято решение не выпускать фильм в прокат до спада волны пандемии.</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">08.11.2020 г.</p>
+                <p class="newsTitle">Ким и Валерия Брейтбурги написали книгу про искусство</p>
+                <p class="newsText">Работа над книгой велась более пяти лет, и действенные методики, описанные в ней, созданные в результате анализа и синтеза идей…</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">07.11.2020 г.</p>
+                <p class="newsTitle">Юрий Колокольников пытается спасти Землю в клипе «Космические силы»</p>
+                <p class="newsText">Премьера клипа «Космические силы» группы «Мумий Тролль» состоялась 6 ноября 2020 года.</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">07.11.2020 г.</p>
+                <p class="newsTitle">BTS получили четыре награды MTV EMA</p>
+                <p class="newsText">BTS получили четыре награды MTV EMA 27-я ежегодная церемония награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.</p>
+            </div>
+        </div>
+        <div class="oneNews">
+            <img class="newsPhoto" src="images/Фото.jpg" style="width: 220px; height: 160px">
+            <div class="newsContent">
+                <p class="newsDate">06.11.2020 г.</p>
+                <p class="newsTitle">Вышел трейлер "Ла-ла Ленд"</p>
+                <p class="newsText">Фильм выйдет в большой прокат 20 декабря. Критики высокотоценили картину.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
